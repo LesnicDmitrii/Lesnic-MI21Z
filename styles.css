@@ -73,5 +73,6 @@ margin: 0 auto;
     color: #0a7880;
 }
 .nav_link:hover:after{
+    
     opacity: 1;
 }
