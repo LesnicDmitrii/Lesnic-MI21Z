@@ -602,3 +602,31 @@ body {
         border-bottom: 0;
     }
 }
+
+.section_gallery{
+    padding: 100px 0 20px 0;
+    background-color: #191d1d;
+}
+
+.gallery_container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.gallery_title{
+text-align: center;
+font-weight: 900;
+font-size: 24px;
+line-height: 43px;
+text-align: center;
+color: #fff;
+padding-top: 75px;
+padding-bottom: 30px;
+}
+
+.gallery_item img{
+    max-width: 100%;
+    height: auto;
+}
