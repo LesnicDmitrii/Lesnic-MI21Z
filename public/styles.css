@@ -162,6 +162,11 @@ body {
     font-weight: 700;
     color: #fff;
 }
+.section_title_2 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+}
 
 .section_title::after {
     content: "";
@@ -406,6 +411,7 @@ body {
     font-style: italic;
     font-weight: 300;
     text-align: center;
+    padding-bottom: -5px;
 }
 
 /*Adaptation Main Page*/
@@ -444,7 +450,7 @@ body {
     .stat_item:last-child {
         border-right: 0;
     }
-    .section_title{
+    .section_title_2{
         padding-top: 10%;
     }
 }
@@ -513,6 +519,9 @@ body {
     }
 
     .section_title {
+        font-size: 20px;
+    }
+    .section_title_2 {
         font-size: 20px;
     }
 
@@ -609,7 +618,8 @@ body {
         padding-top: 30px;
     }
 
-    .section_title {
+    
+    .section_title_2 {
         font-size: 18px;
         padding-top: 40%;
         padding-top: 50%;
